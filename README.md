@@ -5,7 +5,7 @@
 ![NextJS](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white)
 ![Typescript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![PrimeReact](https://img.shields.io/badge/-PrimeReact-61DAFB?logo=react&logoColor=white)
-![Lottie Files](https://img.shields.io/badge/-Lottie%20Files-009688?logo=lottie&logoColor=white)
+![Lottie Files](https://img.shields.io/badge/-Lottie%20Files-009688)
 ![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-0055FF?logo=framer&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
