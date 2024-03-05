@@ -18,6 +18,7 @@
 - **Librairie de Composants :** PrimeReact
 - **Librairie CSS :** Aucunes
 - **Pré-processeur CSS :** SCSS
+- **Déploiement :** Vercel
 - **Autre Techs :**
   - [Lottie](https://lottiefiles.com/) - Animations Assets
   - [Framer Motion](https://www.framer.com/motion) - Animations Components
