@@ -38,6 +38,6 @@
 
 ## Le projet est Open-Source mais est t-il libre de droit ?
 
-Vous avez la possibilité de cloner le repository actuel pour un usage personnel ou éducatif, même si je doûte fortement de ma capatité à être un exemple en terme de **"Code Quality"**, cependant, sans mon accord, je n'autorise pas la génération de profits avec celui-ci, mais je reste ouvert aux propositions commerciales par [mail](mailto:loganwilquin@proton.me?subject=Fatfood).
+Vous avez la possibilité de cloner le repository actuel pour un usage personnel ou éducatif, même si je doûte fortement de ma capatité à être un exemple en terme de **"Code Quality"**, cependant, sans mon accord, je n'autorise pas la génération de profits avec celui-ci, mais je reste ouvert aux propositions commerciales par mail : loganwilquin@proton.me
 
 Pour plus d'informations sur la licence de ce projet veuillez lire son contenu [ici](/LICENSE.txt)
