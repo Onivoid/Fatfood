@@ -36,7 +36,9 @@
   - `recipes: List[Recipe]`
 
 - **Classe Ingredient :**
+  - `id: int`,
   - `name: str`,
+  - `image_url: str`,
   - `portion_size: float`,
   - `kcal: int`,
   - `proteins: float`,
