@@ -6,6 +6,7 @@
 
 - **Langage :** Python
 - **Framework :** FastAPI
+- **ORM :** Tortoise
 - **Base de données :** PostgreSQL
 - **Déploiement :** Docker
 
