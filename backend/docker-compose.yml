@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+  db:
+    env_file:
+      - config/.env
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ${POSTGRES_DBNAME}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - mynetwork
+
+  web:
+    env_file:
+      - config/.env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: >
+      bash -c "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    volumes:
+      - .:/api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+
+  tortoise-orm:
+    env_file:
+      - config/.env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: >
+      bash -c "python manage.py makemigrations && python manage.py migrate"
+    volumes:
+      - .:/api
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
