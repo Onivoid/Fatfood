@@ -16,9 +16,8 @@ backend/
         config/
             __init__.py
             settings.py  *# Contient les paramètres de l'application (par exemple, les paramètres de la base de données)*
-    config/
-        template.env
-        .env
+    template.env
+    .env
     migrations/  *# Contient les fichiers de migration de la base de données*
     tests/ *# Contient les tests de l'application*
     docker-compose.yml
