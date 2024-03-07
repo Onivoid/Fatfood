@@ -5,7 +5,7 @@ class Ingredient(Model):
     id = fields.IntField(pk=True, auto_increment=True)
     name = fields.CharField(max_length=255)
     image_url = fields.CharField(max_length=255)
-    price = fields.DecimalField(max_digits=5, decimal_places=2, null=True)
+    price = fields.DecimalField(max_digits=5, decimal_places=2)
     portion_size = fields.DecimalField(max_digits=5, decimal_places=2)
     kcal = fields.DecimalField(max_digits=5, decimal_places=2)
     proteins = fields.DecimalField(max_digits=5, decimal_places=2)
