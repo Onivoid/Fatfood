@@ -30,5 +30,5 @@ async def get_ingredients():
 
 @router.post("/", response_model=IngredientOut)
 async def create_ingredient(ingredient: IngredientIn):
-    ingredient_obj = await Ingredient.create(**ingredient.dict())
+    ingredient_obj = await Ingredient.create(**ingredient.model_dump())
     return ingredient_obj
